@@ -1,16 +1,16 @@
-# dagre-rs
+# dagre-dgl-rs
 
-[![CI](https://github.com/rinfimate/dagre-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rinfimate/dagre-rs/actions/workflows/ci.yml)
-[![crates.io](https://img.shields.io/crates/v/dagre-rs.svg)](https://crates.io/crates/dagre-rs)
-[![docs.rs](https://docs.rs/dagre-rs/badge.svg)](https://docs.rs/dagre-rs)
-[![Coverage](https://codecov.io/gh/rinfimate/dagre-rs/branch/main/graph/badge.svg)](https://codecov.io/gh/rinfimate/dagre-rs)
+[![CI](https://github.com/rinfimate/dagre-dgl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rinfimate/dagre-dgl-rs/actions/workflows/ci.yml)
+[![crates.io](https://img.shields.io/crates/v/dagre-dgl-rs.svg)](https://crates.io/crates/dagre-dgl-rs)
+[![docs.rs](https://docs.rs/dagre-dgl-rs/badge.svg)](https://docs.rs/dagre-dgl-rs)
+[![Coverage](https://codecov.io/gh/rinfimate/dagre-dgl-rs/branch/main/graph/badge.svg)](https://codecov.io/gh/rinfimate/dagre-dgl-rs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A faithful Rust port of [dagre-js](https://github.com/dagrejs/dagre) — a directed graph layout library that produces layered, hierarchical graph drawings.
 
 ## What it does
 
-dagre-rs takes a directed graph with node sizes and edge constraints, runs a multi-stage layout pipeline, and outputs x/y coordinates for each node and a list of waypoints for each edge. It does not render anything — it is a pure layout engine.
+dagre-dgl-rs takes a directed graph with node sizes and edge constraints, runs a multi-stage layout pipeline, and outputs x/y coordinates for each node and a list of waypoints for each edge. It does not render anything — it is a pure layout engine.
 
 ## Layout pipeline
 

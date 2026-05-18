@@ -1,13 +1,13 @@
 [package]
-name = "dagre-rs"
+name = "dagre-dgl-rs"
 version = "0.1.0"
 edition = "2021"
 description = "A faithful Rust port of dagre-js — directed graph layout"
 license = "MIT"
 authors = ["Rochanglien Infimate"]
-repository = "https://github.com/rinfimate/dagre-rs"
-homepage = "https://github.com/rinfimate/dagre-rs"
-documentation = "https://docs.rs/dagre-rs"
+repository = "https://github.com/rinfimate/dagre-dgl-rs"
+homepage = "https://github.com/rinfimate/dagre-dgl-rs"
+documentation = "https://docs.rs/dagre-dgl-rs"
 keywords = ["graph", "layout", "dagre", "diagram", "directed"]
 categories = ["algorithms", "data-structures", "visualization"]
 readme = "README.md"
