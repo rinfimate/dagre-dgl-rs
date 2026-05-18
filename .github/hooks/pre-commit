@@ -1,0 +1,13 @@
+#!/bin/sh
+# Pre-commit hook: run clippy and tests before every commit.
+# Install: cp .github/hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+
+set -e
+
+echo "Running clippy..."
+cargo clippy -- -D warnings
+
+echo "Running tests..."
+cargo test --quiet
+
+echo "All checks passed."

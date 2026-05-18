@@ -1,0 +1,10 @@
+# Build output
+/target/
+
+# Cargo.lock is intentionally excluded for library crates
+Cargo.lock
+
+# Coverage output
+coverage/
+tarpaulin-report.html
+cobertura.xml
