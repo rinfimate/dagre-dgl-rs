@@ -307,7 +307,7 @@ fn edge_key_undirected(v: &str, w: &str, name: Option<&str>) -> String {
 /// # Example
 ///
 /// ```rust
-/// use dagre_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel};
+/// use dagre_dgl_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel};
 ///
 /// let mut g = Graph::default();
 /// g.set_graph(GraphLabel { nodesep: Some(50.0), ..Default::default() });

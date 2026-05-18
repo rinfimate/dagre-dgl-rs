@@ -46,7 +46,7 @@ const EDGE_ATTRS: &[&str] = &["labelpos"];
 /// # Example
 ///
 /// ```rust
-/// use dagre_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel, layout};
+/// use dagre_dgl_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel, layout};
 ///
 /// let mut g = Graph::default();
 /// g.set_graph(GraphLabel {
@@ -69,7 +69,7 @@ const EDGE_ATTRS: &[&str] = &["labelpos"];
 /// assert!(g.node("a").y.is_some());
 ///
 /// // Every edge has a bend-point sequence.
-/// let ab = dagre_rs::Edge::new("a", "b");
+/// let ab = dagre_dgl_rs::Edge::new("a", "b");
 /// assert!(g.edge(&ab).unwrap().points.is_some());
 /// ```
 pub fn layout(g: &mut Graph) {

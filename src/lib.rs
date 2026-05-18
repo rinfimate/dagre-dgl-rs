@@ -8,7 +8,7 @@
 //! ## Quick start
 //!
 //! ```rust
-//! use dagre_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel, layout};
+//! use dagre_dgl_rs::{Graph, GraphLabel, NodeLabel, EdgeLabel, layout};
 //!
 //! let mut g = Graph::default();
 //! g.set_graph(GraphLabel {
