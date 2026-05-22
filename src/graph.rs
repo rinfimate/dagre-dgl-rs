@@ -731,7 +731,10 @@ impl Graph {
         if !self.edges.contains_key(&key) {
             return;
         }
-        self.edges.swap_remove(&key);
+        // Use shift_remove (not swap_remove) to preserve the global edge insertion
+        // order. swap_remove moves the last edge into the removed slot, scrambling
+        // the order used by normalize → init_order → DFS, causing wrong node layout.
+        self.edges.shift_remove(&key);
 
         // Remove from out_edges — use shift_remove (not swap_remove) to preserve
         // the insertion order of remaining successors. swap_remove would move the
